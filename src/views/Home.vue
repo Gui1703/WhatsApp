@@ -1,31 +1,31 @@
 <template>
   <main-template>
-    <div class="items-center align-center w-full h-full text-ml text-white bg-black">
-      <div class="bg-gray-700 my-2 border-gray rounded-md px-2">
+    <div class="flex flex-col items-center align-center sm:w-full h-full text-ml text-white bg-black">
+      <div class="w-96 bg-gray-700 my-2 border-gray rounded-md p-2 flex items-center">
         <up-bar />
       </div>
 
-      <div class="bg-gray-700 my-2 border-gray rounded-md px-2">
+      <div class="w-96 bg-gray-700 my-2 border-gray rounded-md px-2">
         <business />
       </div>
 
-      <div class="bg-gray-700 my-2 border-gray rounded-md px-2">
+      <div class="w-96 bg-gray-700 my-2 border-gray rounded-md px-2 flex flex-col">
         <media-links />
       </div>
 
-      <div class="bg-gray-700 my-2 border-gray rounded-md px-2">
+      <div class="w-96 bg-gray-700 my-2 border-gray rounded-md px-2">
         <notification />
       </div>
 
-      <div class="bg-gray-700 my-2 border-gray rounded-md px-2">
+      <div class="w-96 bg-gray-700 my-2 border-gray rounded-md px-2">
         <information-messages />
       </div>
 
-      <div class="bg-gray-700 my-2 border-gray rounded-md px-2">
+      <div class="w-96 bg-gray-700 my-2 border-gray rounded-md px-2">
         <message-number />
       </div>
 
-      <div class="bg-gray-700 my-2 border-gray rounded-md px-2">
+      <div class="w-96 bg-gray-700 my-2 border-gray rounded-md px-2">
         <buttons/>
       </div>
     </div>

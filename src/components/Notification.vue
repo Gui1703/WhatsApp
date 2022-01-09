@@ -2,7 +2,7 @@
   <div>
     <div>
       <label for="silence">Silenciar notificações</label>
-      <input name="silence" type="checkbox" />
+      <input name="silence" type="radio" />
     </div>
     <div>
       <div><h2>Notificações personalizadas</h2></div>

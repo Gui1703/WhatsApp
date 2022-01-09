@@ -1,11 +1,11 @@
 <template>
-  <div>
+  <div class="flex flex-col w-full">
     <div>
-        <i>Icon</i>
+      <i class="fas fa-ban"></i>
       <a>Bloquear</a>
     </div>
     <div>
-        <i>Icon</i>
+      <i class="fas fa-thumbs-down"></i>
       <a>Denunciar</a>
     </div>
   </div>

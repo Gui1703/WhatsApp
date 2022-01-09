@@ -11,9 +11,9 @@
         <h2>+55 14 99849-4124</h2>
         <span>Celular</span>
         <div>
-            <i>Icon</i>
-            <i>Icon</i>
-            <i>Icon</i>
+            <i class="fas fa-comment-dots"></i>
+            <i class="fas fa-phone-alt mx-2"></i>
+            <i class="fas fa-video"></i>
         </div>
     </div>
   </div>

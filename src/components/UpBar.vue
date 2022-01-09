@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="flex flex-col items-center m-auto">
     <div>
-      <img src="@/assets/photo-profile.jpeg" width="100px" height="100px">
+      <img class="w-32 h-32 rounded-md" src="@/assets/photo-profile.jpeg" />
     </div>
     <div>
       <h1>Guilherme Raposo</h1>
@@ -14,6 +14,17 @@
     </div>
     <div>
       <span><b>Aberta</b> até às 18:00</span>
+    </div>
+    <div>
+      <div>
+        <i class="fas fa-comment-dots">Conversar</i>
+      </div>
+      <div>
+        <i class="fas fa-phone-alt">Ligar</i>
+      </div>
+      <div>
+        <i class="fas fa-share">Encaminhar</i>
+      </div>
     </div>
   </div>
 </template>

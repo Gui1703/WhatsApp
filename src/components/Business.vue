@@ -4,7 +4,7 @@
       <h1><strong>Desenvolvedor Web</strong></h1>
     </div>
     <div>
-      <h1><b>Aberta agora</b> 09:00 - 18:00 <i>></i></h1>
+      <h1><b>Aberta agora</b> 09:00 - 18:00 <i class="fas fa-angle-down"></i></h1>
     </div>
     <div>
       <span><a href="gmail.com">gui.raposo36@gmail.com</a></span>
