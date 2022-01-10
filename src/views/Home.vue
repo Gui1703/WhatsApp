@@ -1,33 +1,13 @@
 <template>
   <main-template>
     <div class="flex flex-col items-center sm:w-full h-full text-ml text-white bg-black">
-      <div>
-        <up-bar />
-      </div>
-
-      <div>
-        <business />
-      </div>
-
-      <div>
-        <media-links />
-      </div>
-
-      <div>
-        <notification />
-      </div>
-
-      <div>
-        <information-messages />
-      </div>
-
-      <div>
-        <message-number />
-      </div>
-
-      <div>
-        <buttons/>
-      </div>
+        <UpBar />
+        <Business />
+        <MediaLinks />
+        <Notification />
+        <InformationMessages />
+        <MessageNumber />
+        <Buttons/>
     </div>
   </main-template>
 </template>
