@@ -1,19 +1,25 @@
 <template>
-  <div>
+  <div class="flex flex-col w-96 bg-gray-900 my-2 border-gray rounded-md p-2">
     <div>
-      <h1><strong>Desenvolvedor Web</strong></h1>
+      <h1>Desenvolvedor Web</h1>
     </div>
     <div>
-      <h1><b>Aberta agora</b> 09:00 - 18:00 <i class="fas fa-angle-down"></i></h1>
+      <span class="text-green-500">Aberta agora</span>
+      <span class="mx-16">09:00 - 18:00</span>
+      <i class="fas fa-angle-down"></i>
     </div>
-    <div>
-      <span><a href="gmail.com">gui.raposo36@gmail.com</a></span>
-    </div>
-    <div>
-       <span><a href="https://www.linkedin.com/in/guilherme-raposo-3a2130190/">https://www.linkedin.com/in/guilherme-raposo-3a2130190/</a></span>
-    </div>
-    <div>
-       <span><a href="https://github.com/Gui1703">https://github.com/Gui1703</a></span>
+    <div class="text-green-400">
+      <div>
+        <a href="gmail.com">gui.raposo36@gmail.com</a>
+      </div>
+      <div>
+        <a href="https://www.linkedin.com/in/guilherme-raposo-3a2130190/"
+          >https://www.linkedin.com/in/guilherme-raposo-3a2130190/</a
+        >
+      </div>
+      <div>
+        <a href="https://github.com/Gui1703">https://github.com/Gui1703</a>
+      </div>
     </div>
   </div>
 </template>

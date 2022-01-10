@@ -1,14 +1,15 @@
 <template>
-  <div>
+  <div class="flex flex-col w-96 bg-gray-900 my-2 border-gray rounded-md p-2">
     <div>
       <span>Mídia, links e docs</span>
+      <span class="ml-52">5 ></span>
     </div>
-    <div class="flex m-1">
-        <img class="w-14 mx-1" src="@/assets/image-media.jpg">
-        <img class="w-14 mx-1" src="@/assets/image-media.jpg">
-        <img class="w-14 mx-1" src="@/assets/image-media.jpg">
-        <img class="w-14 mx-1" src="@/assets/image-media.jpg">
-        <img class="w-14 mx-1" src="@/assets/image-media.jpg">
+    <div class="flex mx-2 mt-2 items-center space-x-2">
+        <img class="w-16 rounded-md" src="@/assets/image-media.jpg">
+        <img class="w-16 rounded-md" src="@/assets/image-media.jpg">
+        <img class="w-16 rounded-md" src="@/assets/image-media.jpg">
+        <img class="w-16 rounded-md" src="@/assets/image-media.jpg">
+        <img class="w-16 rounded-md" src="@/assets/image-media.jpg">
     </div>
   </div>
 </template>

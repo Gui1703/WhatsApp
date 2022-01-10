@@ -1,31 +1,31 @@
 <template>
   <main-template>
-    <div class="flex flex-col items-center align-center sm:w-full h-full text-ml text-white bg-black">
-      <div class="w-96 bg-gray-700 my-2 border-gray rounded-md p-2 flex items-center">
+    <div class="flex flex-col items-center sm:w-full h-full text-ml text-white bg-black">
+      <div>
         <up-bar />
       </div>
 
-      <div class="w-96 bg-gray-700 my-2 border-gray rounded-md px-2">
+      <div>
         <business />
       </div>
 
-      <div class="w-96 bg-gray-700 my-2 border-gray rounded-md px-2 flex flex-col">
+      <div>
         <media-links />
       </div>
 
-      <div class="w-96 bg-gray-700 my-2 border-gray rounded-md px-2">
+      <div>
         <notification />
       </div>
 
-      <div class="w-96 bg-gray-700 my-2 border-gray rounded-md px-2">
+      <div>
         <information-messages />
       </div>
 
-      <div class="w-96 bg-gray-700 my-2 border-gray rounded-md px-2">
+      <div>
         <message-number />
       </div>
 
-      <div class="w-96 bg-gray-700 my-2 border-gray rounded-md px-2">
+      <div>
         <buttons/>
       </div>
     </div>

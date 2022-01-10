@@ -1,29 +1,68 @@
 <template>
-  <div class="flex flex-col items-center m-auto">
+  <div class="flex flex-col items-center w-96 bg-gray-900 my-2 border-gray rounded-md p-2">
     <div>
-      <img class="w-32 h-32 rounded-md" src="@/assets/photo-profile.jpeg" />
+      <img class="w-28 h-28 rounded-full" src="@/assets/photo-profile.jpeg" />
     </div>
     <div>
-      <h1>Guilherme Raposo</h1>
+      <h1><strong>Guilherme Raposo</strong></h1>
     </div>
     <div>
       <span>~Guilherme Raposo</span>
     </div>
-    <div>
+    <div class="my-2">
       <span>Criador(a) de conteúdo digital</span>
     </div>
     <div>
-      <span><b>Aberta</b> até às 18:00</span>
+      <p><span class="text-green-500">Aberta</span> até às 18:00</p>
     </div>
-    <div>
-      <div>
-        <i class="fas fa-comment-dots">Conversar</i>
+    <div class="flex mt-8 items-center text-green-400 space-x-10">
+      <div class="cursor-pointer">
+        <i
+          class="
+            fas
+            fa-comment-dots
+            flex flex-col
+            items-center
+            rounded-full
+            hover:bg-gray-400
+          "
+        ></i>
+        <span class="flex mt-2">Conversar</span>
       </div>
-      <div>
-        <i class="fas fa-phone-alt">Ligar</i>
+      <div class="cursor-pointer">
+        <i
+          class="
+            fas
+            fa-phone-alt
+            flex flex-col
+            items-center
+            rounded-full
+            hover:bg-gray-400
+            mb-2
+          "
+        ></i>
+        <span>Ligar</span>
       </div>
-      <div>
-        <i class="fas fa-share">Encaminhar</i>
+      <div class="cursor-pointer">
+        <i
+          class="
+            fas
+            fa-share
+            flex flex-col
+            items-center
+            rounded-full
+            hover:bg-gray-400
+            mb-2
+          "
+        ></i>
+        <span>Encaminhar</span>
+      </div>
+    </div>
+
+    <div class="flex border-t border-gray-700 w-full mt-8">
+      <div class="flex mt-3 w-full h-full">
+        <span class="flex justify-items-start pl-1">Conta Comercial</span>
+        <i class="fas fa-info-circle flex ml-56 items-center text-green-400"></i>
       </div>
     </div>
   </div>
@@ -35,4 +74,3 @@ export default {
   props: {},
 };
 </script>
-
