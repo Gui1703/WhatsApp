@@ -1,12 +1,12 @@
 <template>
-  <div class="flex flex-col w-96 bg-gray-900 my-2 border-gray rounded-md p-2">
+  <div class="flex flex-col w-96 bg-conf-dark my-2 border-gray rounded-md p-2">
     <div class="flex flex-col">
-      <h2>Mensagens temporárias</h2>
+      <h2 class="cursor-pointer">Mensagens temporárias</h2>
       <span class="font-extralight text-sm align-top text-gray-400">Desativadas</span>
       <i class="far fa-clock ml-80 flex flex-col items-center alt text-gray-600"></i>
     </div>
     <div class="border-t border-gray-700 w-full">
-      <h2>Criptografia</h2>
+      <h2 class="cursor-pointer">Criptografia</h2>
       <p class="font-light text-sm align-top text-gray-400">
         As mensagens e as chamadas são protegidas com criptografia de ponta a
         ponta. Toque para confirmar

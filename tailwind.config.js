@@ -5,21 +5,19 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     colors: {
-        black: colors.black,
-        white: colors.white,
-        gray: colors.trueGray,
-        coolGray: colors.coolGray,
-        indigo: colors.indigo,
-        red: colors.red,
-        rose: colors.rose,
-        yellow: colors.amber,
-        blue: colors.blue,
-        green: colors.green,
-        emerald: colors.emerald,
-        pink: colors.pink,
-        purple: colors.purple,
+      black: colors.black,
+      white: colors.white,
+      gray: colors.trueGray,
+      coolGray: colors.coolGray,
+      red: colors.red,
+      green: colors.green,
+
+      "conf": {
+        DEFAULT: "#131c21",
+        "dark": "#131c21",
+      },
+    },
   },
-},
   variants: {
     extend: {},
   },

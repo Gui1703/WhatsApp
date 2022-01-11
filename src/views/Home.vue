@@ -1,6 +1,6 @@
 <template>
   <main-template>
-    <div class="flex flex-col items-center sm:w-full h-full text-ml text-white bg-black">
+    <div class="flex flex-col items-center sm:w-full h-full text-base text-white bg-black">
         <UpBar />
         <Business />
         <MediaLinks />

@@ -1,12 +1,12 @@
 <template>
-  <div class="flex flex-col w-96 bg-gray-900 my-2 border-gray rounded-md p-2">
+  <div class="flex flex-col w-96 bg-conf-dark my-2 border-gray rounded-md p-2">
     <div>
-      <h1>Desenvolvedor Web</h1>
+      <h1 class="font-semibold mb-1">Desenvolvedor Web</h1>
     </div>
     <div>
       <span class="text-green-500">Aberta agora</span>
       <span class="mx-16">09:00 - 18:00</span>
-      <i class="fas fa-angle-down"></i>
+      <i class="fas fa-angle-down cursor-pointer"></i>
     </div>
     <div class="text-green-400">
       <div>
