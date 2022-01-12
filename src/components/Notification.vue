@@ -1,8 +1,8 @@
 <template>
-  <div class="flex flex-col w-96 bg-conf-dark my-2 border-gray rounded-md p-2">
+  <div class="flex flex-col bg-conf-dark my-2 border-gray rounded-md p-2">
     <div>
       <span>Silenciar notificações</span>
-      <ToggleButton/>
+      <ToggleButton />
     </div>
     <div>
       <div class="flex my-2 border-t border-gray-700 w-full cursor-pointer">

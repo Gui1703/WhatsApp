@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col items-center w-96 bg-conf-dark my-2 border-gray rounded-md p-2">
+  <div class="flex flex-col items-center bg-conf-dark my-2 border-gray rounded-md p-2">
     <div>
       <img class="w-28 h-28 rounded-full" src="@/assets/photo-profile.jpeg" />
     </div>
@@ -64,8 +64,8 @@
 
     <div class="flex border-t border-gray-700 w-full mt-8">
       <div class="flex mt-3 w-full h-full">
-        <span class="flex justify-items-start pl-1">Conta Comercial</span>
-        <i class="fas fa-info-circle flex ml-56 items-center text-green-400 cursor-pointer"></i>
+        <span>Conta Comercial</span>
+        <i class="fas fa-info-circle flex ml-52 items-center text-green-400 cursor-pointer"></i>
       </div>
     </div>
   </div>

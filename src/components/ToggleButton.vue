@@ -1,5 +1,5 @@
 <template>
-    <div class="flex items-center justify-center w-full ml-36 toggleStatus">
+    <div class="flex flex-row w-12 ml-72 items-center justify-center toggleStatus">
       <label for="toggle" class="flex items-center cursor-pointer">
         <!-- toggle -->
         <div class="relative">

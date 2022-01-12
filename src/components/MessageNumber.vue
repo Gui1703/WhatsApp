@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col w-96 bg-conf-dark my-2 border-gray rounded-md p-2">
+  <div class="flex flex-col bg-conf-dark my-2 border-gray rounded-md p-2">
     <div>
       <span class="font-light text-sm text-gray-400"
         >Recado e número de telefone</span
@@ -18,7 +18,7 @@
         class="
           flex
           items-center
-          ml-64
+          ml-60
           space-x-6
           alt
           text-green-400

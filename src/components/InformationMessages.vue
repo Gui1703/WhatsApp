@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col w-96 bg-conf-dark my-2 border-gray rounded-md p-2">
+  <div class="flex flex-col bg-conf-dark my-2 border-gray rounded-md p-2">
     <div class="flex flex-col">
       <h2 class="cursor-pointer">Mensagens temporárias</h2>
       <span class="font-extralight text-sm align-top text-gray-400">Desativadas</span>
