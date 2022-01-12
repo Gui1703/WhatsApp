@@ -65,7 +65,7 @@
     <div class="flex border-t border-gray-700 w-full mt-8">
       <div class="flex mt-3 w-full h-full">
         <span>Conta Comercial</span>
-        <i class="fas fa-info-circle flex ml-52 items-center text-green-400 cursor-pointer"></i>
+        <i class="fas fa-info-circle flex ml-56 items-center text-green-400 cursor-pointer"></i>
       </div>
     </div>
   </div>

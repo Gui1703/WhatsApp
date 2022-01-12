@@ -40,6 +40,6 @@ export default {
 </script>
 <style scoped>
 .edit {
-  width: 375px;
+  width: 380px;
 }
 </style>

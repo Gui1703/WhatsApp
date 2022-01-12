@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-row w-12 ml-72 items-center justify-center toggleStatus">
+    <div class="flex flex-row w-12 items-center justify-center toggleStatus">
       <label for="toggle" class="flex items-center cursor-pointer">
         <!-- toggle -->
         <div class="relative">
@@ -47,5 +47,6 @@ input:checked ~ .dot {
 
 .toggleStatus {
     margin-top: -20px;
+    margin-left: 300px;
 }
 </style>
