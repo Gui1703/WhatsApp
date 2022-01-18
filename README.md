@@ -8,7 +8,7 @@
 
 
 <br>
-[Link do projeto](https://donsburger.netlify.app) - Project developed with the programming language (Vue.js and TailwindCSS). A copy of my WhatsApp profile (Mobile version).
+[Link do projeto](https://clone-whats-app.netlify.app) - Project developed with the programming language (Vue.js and TailwindCSS). A copy of my WhatsApp profile (Mobile version).
 
 ## 🤝 Contributors.
 
